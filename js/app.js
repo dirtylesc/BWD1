@@ -63,7 +63,7 @@ list_product_search.forEach((item, n) => {
 
   newProduct.classList.add("product");
   newProduct.innerHTML = `
-        <a href="${item.link}" class="picture"><img src="/${item.picture}" alt=""></a>
+        <a href="${item.link}" class="picture"><img src="${item.picture}" alt=""></a>
             <div class="info">
                 <h3><a href="">${item.name}</a></h3>
                 <span class="price">$${item.price}</span>
